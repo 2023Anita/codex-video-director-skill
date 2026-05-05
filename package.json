@@ -1,0 +1,20 @@
+{
+  "name": "codex-video-director-skill",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A premium Codex skill for storyboard-driven AI video production with dual-style demo assets.",
+  "type": "module",
+  "scripts": {
+    "validate": "python3 scripts/validate_repo.py",
+    "render:demo": "node scripts/render-demo.mjs",
+    "package:skill": "python3 /Users/anita/.agents/skills/skill-creator/scripts/package_skill.py skills/codex-video-director dist"
+  },
+  "keywords": [
+    "codex",
+    "skill",
+    "ai-video",
+    "storyboard",
+    "motion-design"
+  ],
+  "license": "MIT"
+}

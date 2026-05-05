@@ -1,0 +1,24 @@
+{
+  "name": "demo-name",
+  "aspectRatio": "16:9",
+  "durationSeconds": 36,
+  "style": "american-saas",
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "duration": 5,
+      "reference": "assets/reference-frames/hook.png",
+      "copy": ["Codex Video Director"],
+      "motion": ["fade in background", "slide in title", "reveal pipeline"]
+    },
+    {
+      "id": "proof",
+      "start": 5,
+      "duration": 11,
+      "reference": "assets/reference-frames/proof.png",
+      "copy": ["Storyboard", "Image reference", "Coded motion"],
+      "motion": ["reveal cards", "animate metrics", "highlight result"]
+    }
+  ]
+}

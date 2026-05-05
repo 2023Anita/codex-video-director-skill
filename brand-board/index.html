@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Codex Video Director Brand Board</title>
+    <style>
+      :root {
+        --ink: #171417;
+        --paper: #f6f2ea;
+        --muted: #6f6768;
+        --red: #b94a4d;
+        --blue: #73b9c7;
+        --graphite: #111418;
+        --sakura: #db8fa4;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: Inter, Avenir, Arial, sans-serif;
+      }
+
+      main {
+        max-width: 1240px;
+        margin: 0 auto;
+        padding: 56px 28px 72px;
+      }
+
+      header {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 28px;
+        align-items: end;
+        border-bottom: 1px solid rgba(23, 20, 23, 0.14);
+        padding-bottom: 28px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 72px;
+        line-height: 0.95;
+        letter-spacing: 0;
+      }
+
+      p {
+        color: var(--muted);
+        font-size: 18px;
+        line-height: 1.6;
+        margin: 14px 0 0;
+      }
+
+      .badge {
+        border: 1px solid rgba(23, 20, 23, 0.16);
+        border-radius: 999px;
+        padding: 10px 16px;
+        color: var(--ink);
+        background: rgba(255, 255, 255, 0.52);
+        white-space: nowrap;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 24px;
+        margin-top: 34px;
+      }
+
+      section {
+        padding: 24px;
+        border: 1px solid rgba(23, 20, 23, 0.12);
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.44);
+      }
+
+      h2 {
+        margin: 0 0 16px;
+        font-size: 24px;
+      }
+
+      img {
+        display: block;
+        width: 100%;
+        border-radius: 8px;
+        border: 1px solid rgba(23, 20, 23, 0.1);
+        background: #fff;
+      }
+
+      .swatches {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 10px;
+      }
+
+      .swatch {
+        min-height: 96px;
+        border-radius: 8px;
+        border: 1px solid rgba(23, 20, 23, 0.14);
+        padding: 12px;
+        display: flex;
+        align-items: end;
+        font-size: 12px;
+        color: #fff;
+      }
+
+      .paper { color: var(--ink); }
+
+      .steps {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 14px;
+      }
+
+      .step {
+        min-height: 120px;
+        border-radius: 8px;
+        background: var(--graphite);
+        color: #f4efe7;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .step span {
+        color: #aab4c2;
+        font-size: 12px;
+      }
+
+      @media (max-width: 860px) {
+        header, .grid, .steps { grid-template-columns: 1fr; }
+        h1 { font-size: 44px; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div>
+          <h1>Codex Video Director</h1>
+          <p>Storyboard to image reference to coded motion. One skill, two premium visual directions.</p>
+        </div>
+        <div class="badge">v0.1.0 release board</div>
+      </header>
+
+      <div class="grid">
+        <section>
+          <h2>Generated Assets</h2>
+          <img src="generated-assets-contact-sheet.png" alt="Generated asset contact sheet">
+        </section>
+        <section>
+          <h2>Demo Covers</h2>
+          <img src="demo-cover-contact-sheet.png" alt="Demo cover contact sheet">
+        </section>
+        <section>
+          <h2>Color Tokens</h2>
+          <div class="swatches">
+            <div class="swatch" style="background:#111418">Graphite</div>
+            <div class="swatch" style="background:#f4efe7;color:#171417">Warm white</div>
+            <div class="swatch" style="background:#b94a4d">Muted red</div>
+            <div class="swatch" style="background:#5f7896">Steel blue</div>
+            <div class="swatch paper" style="background:#f8efe2">Ivory</div>
+            <div class="swatch" style="background:#db8fa4">Sakura</div>
+          </div>
+        </section>
+        <section>
+          <h2>Motion Vocabulary</h2>
+          <div class="steps">
+            <div class="step"><span>01</span>Storyboard</div>
+            <div class="step"><span>02</span>Image Reference</div>
+            <div class="step"><span>03</span>Coded Motion</div>
+            <div class="step"><span>04</span>Export</div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

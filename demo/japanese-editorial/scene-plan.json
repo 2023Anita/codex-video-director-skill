@@ -1,0 +1,44 @@
+{
+  "name": "japanese-editorial",
+  "title": "Japanese Editorial Demo",
+  "durationSeconds": 36,
+  "fps": 12,
+  "palette": {
+    "background": "#f8efe2",
+    "surface": "#fffaf2",
+    "text": "#221d1f",
+    "muted": "#71656a",
+    "accent": "#db8fa4",
+    "blue": "#73b9c7"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "duration": 8,
+      "copy": ["Codex Video Director", "Storyboards become motion scenes"],
+      "asset": "assets/japanese-magazine-cover.png"
+    },
+    {
+      "id": "creator",
+      "start": 8,
+      "duration": 10,
+      "copy": ["sketch the beat", "generate the frame", "code the motion"],
+      "asset": "assets/japanese-creator-cutout.png"
+    },
+    {
+      "id": "pipeline",
+      "start": 18,
+      "duration": 10,
+      "copy": ["storyboard", "reference image", "coded animation", "export"],
+      "asset": "assets/japanese-paper-texture.png"
+    },
+    {
+      "id": "close",
+      "start": 28,
+      "duration": 8,
+      "copy": ["One skill", "Many visual directions", "Install codex-video-director"],
+      "asset": null
+    }
+  ]
+}

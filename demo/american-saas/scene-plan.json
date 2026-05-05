@@ -1,0 +1,44 @@
+{
+  "name": "american-saas",
+  "title": "American SaaS Demo",
+  "durationSeconds": 36,
+  "fps": 12,
+  "palette": {
+    "background": "#111418",
+    "surface": "#1b2028",
+    "text": "#f4efe7",
+    "muted": "#99a3b3",
+    "accent": "#b94a4d",
+    "blue": "#5f7896"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "duration": 8,
+      "copy": ["Codex Video Director", "From storyboard to coded product video"],
+      "asset": "assets/american-hero-cover.png"
+    },
+    {
+      "id": "proof",
+      "start": 8,
+      "duration": 10,
+      "copy": ["68%", "already solved by docs", "4.2 hrs saved weekly"],
+      "asset": "assets/american-analytics-ui.png"
+    },
+    {
+      "id": "human",
+      "start": 18,
+      "duration": 10,
+      "copy": ["Decide the visual first", "Rebuild the scene in code"],
+      "asset": "assets/american-founder-cutout.png"
+    },
+    {
+      "id": "close",
+      "start": 28,
+      "duration": 8,
+      "copy": ["Install the skill", "Ship coded motion demos", "github.com/anita/codex-video-director-skill"],
+      "asset": null
+    }
+  ]
+}

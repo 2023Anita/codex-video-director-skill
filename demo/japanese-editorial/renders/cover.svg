@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect width="1920" height="1080" fill="#f8efe2"/>
+  <defs>
+    <linearGradient id="wash" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#db8fa4" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#73b9c7" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="28"/></filter>
+  </defs>
+  <rect x="72" y="62" width="1776" height="956" rx="42" fill="url(#wash)" opacity="0.88"/>
+  <g opacity="0.5192820323027552" filter="url(#soft)">
+    <circle cx="1480" cy="240" r="180" fill="#db8fa4"/>
+    <circle cx="420" cy="760" r="220" fill="#73b9c7"/>
+  </g>
+  <image href="../../assets/japanese-magazine-cover.png" x="100" y="96" width="1720" height="888" preserveAspectRatio="xMidYMid slice" opacity="0.22"/>
+  <g opacity="0.24">
+    <line x1="160" y1="120" x2="160" y2="960" stroke="#221d1f" stroke-opacity="0.12"/><line x1="300" y1="120" x2="300" y2="960" stroke="#221d1f" stroke-opacity="0.12"/><line x1="440" y1="120" x2="440" y2="960" stroke="#221d1f" stroke-opacity="0.12"/><line x1="580" y1="120" x2="580" y2="960" stroke="#221d1f" stroke-opacity="0.12"/><line x1="720" y1="120" x2="720" y2="960" stroke="#221d1f" stroke-opacity="0.12"/><line x1="860" y1="120" x2="860" y2="960" stroke="#221d1f" stroke-opacity="0.12"/><line x1="1000" y1="120" x2="1000" y2="960" stroke="#221d1f" stroke-opacity="0.12"/><line x1="1140" y1="120" x2="1140" y2="960" stroke="#221d1f" stroke-opacity="0.12"/><line x1="1280" y1="120" x2="1280" y2="960" stroke="#221d1f" stroke-opacity="0.12"/><line x1="1420" y1="120" x2="1420" y2="960" stroke="#221d1f" stroke-opacity="0.12"/><line x1="1560" y1="120" x2="1560" y2="960" stroke="#221d1f" stroke-opacity="0.12"/><line x1="1700" y1="120" x2="1700" y2="960" stroke="#221d1f" stroke-opacity="0.12"/>
+    <line x1="140" y1="200" x2="1780" y2="200" stroke="#221d1f" stroke-opacity="0.10"/><line x1="140" y1="320" x2="1780" y2="320" stroke="#221d1f" stroke-opacity="0.10"/><line x1="140" y1="440" x2="1780" y2="440" stroke="#221d1f" stroke-opacity="0.10"/><line x1="140" y1="560" x2="1780" y2="560" stroke="#221d1f" stroke-opacity="0.10"/><line x1="140" y1="680" x2="1780" y2="680" stroke="#221d1f" stroke-opacity="0.10"/><line x1="140" y1="800" x2="1780" y2="800" stroke="#221d1f" stroke-opacity="0.10"/>
+  </g>
+  <text x="150" y="130" fill="#71656a" font-family="Inter, Arial, sans-serif" font-size="22" letter-spacing="3">HOOK / Japanese Editorial Demo</text>
+  <text x="150" y="132.44827835648147" fill="#221d1f" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="800">Codex Video Director</text>
+  <rect x="150" y="214" width="90" height="7" rx="4" fill="#db8fa4"/>
+  
+  
+  
+      <g opacity="0.115">
+        <rect x="1140" y="548.1558838816663" width="560" height="60" rx="16" fill="#fffaf2" stroke="#db8fa4" stroke-opacity="0.45"/>
+        <text x="1170" y="587.1558838816663" fill="#221d1f" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">Codex Video Director</text>
+      </g>
+      <g opacity="0.000">
+        <rect x="1152" y="628" width="560" height="60" rx="16" fill="#fffaf2" stroke="#73b9c7" stroke-opacity="0.45"/>
+        <text x="1182" y="667" fill="#221d1f" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="500">Storyboards become motion scenes</text>
+      </g>
+  <g transform="translate(150 840)">
+    <rect width="610" height="96" rx="24" fill="#fffaf2" stroke="#221d1f" stroke-opacity="0.16"/>
+    <text x="32" y="40" fill="#71656a" font-family="Inter, Arial, sans-serif" font-size="20">WORKFLOW</text>
+    <text x="32" y="73" fill="#221d1f" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">Storyboard -> Image Reference -> Coded Motion</text>
+  </g>
+</svg>
