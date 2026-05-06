@@ -1,13 +1,17 @@
 {
   "name": "codex-video-director-skill",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "A premium Codex skill for storyboard-driven AI video production with dual-style demo assets.",
+  "description": "An agentic Codex skill for turning factual timelines and product histories into cinematic coded videos.",
   "type": "module",
   "scripts": {
     "validate": "python3 scripts/validate_repo.py",
+    "lint:hyperframes": "hyperframes lint",
+    "remotion:compositions": "remotion compositions case-studies/iphone-evolution/remotion/index.tsx && remotion compositions case-studies/spacex-ascent/remotion/index.tsx && remotion compositions case-studies/ai-interface-futures/remotion/index.tsx",
+    "render:remotion-stills": "remotion still case-studies/iphone-evolution/remotion/index.tsx iphone-evolution case-studies/iphone-evolution/remotion/renders/frame-30.png --frame=30 --scale=0.25 && remotion still case-studies/spacex-ascent/remotion/index.tsx spacex-ascent case-studies/spacex-ascent/remotion/renders/frame-30.png --frame=30 --scale=0.25 && remotion still case-studies/ai-interface-futures/remotion/index.tsx ai-interface-futures case-studies/ai-interface-futures/remotion/renders/frame-30.png --frame=30 --scale=0.25",
     "render:demo": "node scripts/render-demo.mjs",
-    "package:skill": "python3 /Users/anita/.agents/skills/skill-creator/scripts/package_skill.py skills/codex-video-director dist"
+    "render:case-studies": "node scripts/render-case-studies.mjs",
+    "package:skill": "python3 scripts/package_skill.py skills/codex-video-director dist"
   },
   "keywords": [
     "codex",
@@ -16,5 +20,12 @@
     "storyboard",
     "motion-design"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@remotion/cli": "^4.0.457",
+    "hyperframes": "^0.4.45",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "remotion": "^4.0.457"
+  }
 }

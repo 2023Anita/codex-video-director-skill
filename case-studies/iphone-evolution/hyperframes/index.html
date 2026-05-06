@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <body>
+    <div data-composition-id="iphone-evolution" data-width="1920" data-height="1080" data-start="0" data-duration="60" data-track-index="0">
+      <main class="scene-content">
+        <p class="eyebrow">HyperFrames opener</p>
+        <h1>iPhone Evolution</h1>
+        <p>The glass timeline: multi-touch, ecosystem, identity, AI surface.</p>
+      </main>
+      <style>
+        body { margin: 0; background: #f5f1ea; }
+        [data-composition-id="iphone-evolution"] { width: 1920px; height: 1080px; background: #f5f1ea; color: #111; font-family: Inter, Arial, sans-serif; }
+        .scene-content { width: 100%; height: 100%; padding: 140px; display: flex; flex-direction: column; justify-content: center; box-sizing: border-box; }
+        h1 { font-size: 132px; margin: 0; }
+        p { max-width: 980px; font-size: 44px; line-height: 1.25; }
+        .eyebrow { font-size: 24px; color: #5b8cff; letter-spacing: 6px; text-transform: uppercase; }
+      </style>
+      <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+      <script>
+        window.__timelines = window.__timelines || {};
+        const tl = gsap.timeline({ paused: true });
+        tl.from("h1", { y: 60, opacity: 0, duration: 0.8, ease: "power3.out" }, 0);
+        tl.from("p", { y: 30, opacity: 0, duration: 0.7, ease: "power3.out" }, 0.25);
+        window.__timelines["iphone-evolution"] = tl;
+      </script>
+    </div>
+  </body>
+</html>

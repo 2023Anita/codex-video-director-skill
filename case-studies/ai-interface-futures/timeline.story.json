@@ -1,0 +1,49 @@
+{
+  "title": "AI Interface Futures",
+  "subtitle": "From Prompt to Agent",
+  "durationSeconds": 60,
+  "fps": 12,
+  "style": "agentic-interface-studio",
+  "palette": {
+    "background": "#121317",
+    "surface": "#f8efe2",
+    "text": "#f4efe7",
+    "muted": "#a9a3a0",
+    "accent": "#db8fa4",
+    "secondary": "#73b9c7",
+    "dark": "#07080b"
+  },
+  "sourceNotes": ["Project workflow", "HyperFrames", "Remotion", "Figma plugin guidance"],
+  "milestones": [
+    {
+      "year": "01",
+      "label": "Prompt",
+      "meaning": "The user states a video intent, not a full production spec.",
+      "visual": "single prompt line expands into a production board"
+    },
+    {
+      "year": "02",
+      "label": "Reference",
+      "meaning": "Figma and image generation make visual direction concrete.",
+      "visual": "style frames lock colors, layout, and mood"
+    },
+    {
+      "year": "03",
+      "label": "Build",
+      "meaning": "Codex turns the reference into editable code layers.",
+      "visual": "UI panels and timeline data assemble into a scene"
+    },
+    {
+      "year": "04",
+      "label": "Render",
+      "meaning": "HyperFrames and Remotion export cinematic and data-driven video.",
+      "visual": "HTML motion and React timeline tracks merge"
+    },
+    {
+      "year": "05",
+      "label": "Publish",
+      "meaning": "The final package becomes a GitHub release and reusable skill.",
+      "visual": "release card emits a downloadable skill package"
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 ---
 name: codex-video-director
-description: Use when creating coded product videos, tutorial videos, AI workflow demos, launch clips, animated dashboards, or social-ready motion scenes with Codex, ChatGPT image generation, reference frames, React/HTML/CSS/Remotion, browser preview, or video export. Guides the workflow from storyboard to image reference prompts, code reconstruction, motion QA, and final delivery.
+description: Use when creating coded product videos, factual timeline videos, product history films, tutorial videos, AI workflow demos, launch clips, animated dashboards, or social-ready motion scenes with Codex, ChatGPT image generation, Figma, HyperFrames, Remotion, React/HTML/CSS, browser preview, or video export. Guides the workflow from research and storyboard to visual references, plugin routing, code reconstruction, motion QA, and final delivery.
 ---
 
 # Codex Video Director
 
-Turn a vague video idea into a coded motion deliverable by separating visual direction from implementation. Use generated reference frames for taste and layout, then rebuild text, UI, numbers, and animation in code so the result remains editable.
+Turn a vague video idea into a coded motion deliverable by separating visual direction from implementation. Use research, Figma-ready storyboards, generated reference frames, HyperFrames cinematic motion, and Remotion data-driven scenes so the result remains factual, editable, and reusable.
 
 ## Workflow
 
@@ -23,12 +23,18 @@ Turn a vague video idea into a coded motion deliverable by separating visual dir
    - Image layer: backgrounds, editorial illustrations, textures, product mood frames.
    - Do not bake important text or numbers into generated images when the code can render them.
 
-4. **Ask Codex to analyze before coding**
+4. **Route the production tools**
+   - Use Figma for moodboards, storyboard frames, visual tokens, and README cover direction.
+   - Use HyperFrames for cinematic HTML motion, title cards, captions, overlays, and transitions.
+   - Use Remotion for data-driven React timelines, charts, milestone cards, and parameterized renders.
+   - See `references/plugin-routing.md` before choosing a stack for a serious video.
+
+5. **Ask Codex to analyze before coding**
    - Use the prompts in `references/codex-motion-prompts.md`.
    - Require Codex to first describe layout hierarchy, component list, and motion sequence, then implement one scene at a time.
    - Keep changes scoped to the current scene or template unless the user requests a broader refactor.
 
-5. **Verify visually and export**
+6. **Verify visually and export**
    - Preview each scene before combining.
    - Check frame composition, text fit, timing, contrast, asset paths, and video playback.
    - Deliver source files plus an exported MP4/GIF when requested.
@@ -55,6 +61,7 @@ Use this shape as a default, not a prison. Match the user's existing repo when o
 ## Quality Bar
 
 - Prefer a few high-control scenes over many vague ones.
+- For factual stories, verify claims and keep sources in `sources.md`.
 - Make every scene independently previewable.
 - Use exact copy and exact numbers in code.
 - Recreate charts and UI with code, not screenshots, when editability matters.
@@ -66,6 +73,8 @@ Use this shape as a default, not a prison. Match the user's existing repo when o
 - `references/storyboard-spec.md`: scene spec contract and acceptance criteria.
 - `references/image-prompt-patterns.md`: prompt patterns for SaaS and Japanese editorial styles.
 - `references/codex-motion-prompts.md`: implementation prompts for Codex.
+- `references/plugin-routing.md`: Figma, HyperFrames, and Remotion routing rules.
+- `references/factual-story-video.md`: workflow for product histories and factual timelines.
 - `assets/templates/storyboard.md`: reusable storyboard template.
 - `assets/templates/scene.json`: reusable scene timeline template.
 - `assets/templates/demo-readme.md`: demo documentation template.

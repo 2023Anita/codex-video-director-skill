@@ -1,28 +1,49 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="demo/american-saas/renders/cover.png">
-  <img alt="Codex Video Director hero" src="demo/american-saas/renders/cover.png">
+  <source media="(prefers-color-scheme: dark)" srcset="case-studies/spacex-ascent/renders/cover.png">
+  <img alt="Codex Video Director cinematic case studies" src="case-studies/iphone-evolution/renders/cover.png">
 </picture>
 
 # Codex Video Director
 
-An installable Codex skill for turning storyboard intent, ChatGPT-generated visual references, and code reconstruction into editable product videos.
+An installable Codex skill for turning factual timelines, product histories, and cultural stories into cinematic coded videos.
 
-It is built around one principle: **decide the visual first, then rebuild the motion scene in code.**
+It is not a prompt pack. It is a production method: **Figma sets direction, HyperFrames creates cinematic HTML motion, Remotion renders data-driven timelines, and Codex assembles the story into a reusable skill package.**
 
-## Dual Demo
+## Watch the Case Studies
 
-| American SaaS | Japanese Editorial |
-|---|---|
-| Calm B2B launch video, graphite UI, analytics proof, founder layer. | Anime editorial workflow video, warm paper, magazine panels, creator layer. |
-| `demo/american-saas/renders/demo.mp4` | `demo/japanese-editorial/renders/demo.mp4` |
+| iPhone Evolution | SpaceX Ascent | AI Interface Futures |
+|---|---|---|
+| Product history as museum-tech editorial. | Aerospace milestones as mission-control documentary. | The skill explains itself as an agentic interface chain. |
+| [MP4](case-studies/iphone-evolution/renders/demo.mp4) · [GIF](case-studies/iphone-evolution/renders/demo.gif) | [MP4](case-studies/spacex-ascent/renders/demo.mp4) · [GIF](case-studies/spacex-ascent/renders/demo.gif) | [MP4](case-studies/ai-interface-futures/renders/demo.mp4) · [GIF](case-studies/ai-interface-futures/renders/demo.gif) |
 
-## Workflow
+## How the Skill Decides Tools
 
-```text
-Storyboard -> ChatGPT image reference -> Codex coded scene -> visual QA -> MP4/GIF export
+- **Figma**: moodboard, storyboard frames, visual system, README cover direction.
+- **HyperFrames**: cinematic HTML motion, title cards, overlays, captions, transitions.
+- **Remotion**: React component video, JSON-driven timelines, milestone cards, batchable exports.
+- **Codex**: research, repo assembly, code reconstruction, validation, release packaging.
+
+## Create Your Own Timeline Video
+
+Start with a `timeline.story.json`:
+
+```json
+{
+  "title": "Product History",
+  "durationSeconds": 60,
+  "style": "museum-tech-editorial",
+  "milestones": [
+    {
+      "year": "2007",
+      "label": "Original iPhone",
+      "meaning": "Multi-touch turns the phone into a software canvas",
+      "visual": "black glass slab, keynote light, single touch ripple"
+    }
+  ]
+}
 ```
 
-The generated image does not become the final video. It becomes the visual target. Text, metrics, UI cards, charts, and motion are rebuilt in code so the final scene is editable.
+Then ask Codex Video Director to research sources, create the Figma brief, route the stack, build HyperFrames/Remotion scenes, and export the final video.
 
 ## Install
 
@@ -35,40 +56,36 @@ unzip codex-video-director.skill -d "$HOME/.codex/skills/codex-video-director"
 
 Restart Codex so the new skill appears in the available skill list.
 
-## Use
+## Validate and Render
 
-Ask for tasks like:
-
-```text
-Use codex-video-director to create a 35-second product demo for my AI knowledge base.
-Make one American SaaS version and one Japanese editorial version.
-Generate reference images first, then rebuild text, UI, and animation in code.
+```bash
+npm run validate
+npm run lint:hyperframes
+npm run remotion:compositions
+npm run render:remotion-stills
+npm run render:case-studies
+npm run render:demo
+npm run package:skill
 ```
+
+Requirements for full rendering: Node.js, `rsvg-convert`, FFmpeg, and Remotion's Chrome Headless Shell download.
 
 ## Repository Layout
 
 ```text
 skills/codex-video-director/   # installable skill source
-demo/american-saas/            # polished B2B product demo
-demo/japanese-editorial/       # anime editorial demo
-brand-board/                   # visual board for GitHub/Figma presentation
-scripts/                       # validation and demo rendering
+case-studies/                  # flagship cinematic demos
+demo/                          # legacy/simple demos
+docs/research/                 # source notes and project references
+docs/design-system/            # visual system guidance
+hyperframes/index.html         # HyperFrames composition board
+index.html                     # root HyperFrames CLI entry
 dist/                          # packaged .skill release asset
 ```
 
-## Validate and Render
-
-```bash
-npm run validate
-npm run render:demo
-npm run package:skill
-```
-
-Requirements for full demo rendering: Node.js and ffmpeg.
-
 ## Why It Stands Out
 
-- It ships a real `.skill` package, not just a prompt collection.
-- It proves the workflow with two different visual languages.
-- It keeps the final video editable because important content is rebuilt in code.
-- It includes reusable storyboard, scene-plan, and Codex implementation templates.
+- It ships a real `.skill` package.
+- It proves the workflow through concrete factual stories, not generic scenes.
+- It keeps video content editable because text, charts, and milestones are code-rendered.
+- It uses Figma, HyperFrames, Remotion, and Codex as a coherent production chain.

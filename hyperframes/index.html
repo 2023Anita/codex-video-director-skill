@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Codex Video Director Case Studies</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      body { margin: 0; background: #0f1116; font-family: Inter, Arial, sans-serif; }
+      .composition {
+        width: 1920px;
+        height: 1080px;
+        box-sizing: border-box;
+        padding: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+      }
+      .composition::after {
+        content: "";
+        position: absolute;
+        inset: 10%;
+        border: 1px solid rgba(255,255,255,0.12);
+      }
+      .eyebrow { font-size: 24px; letter-spacing: 6px; text-transform: uppercase; opacity: 0.72; }
+      h1 { font-size: 132px; line-height: 0.95; margin: 28px 0; max-width: 1280px; }
+      p { font-size: 42px; line-height: 1.25; max-width: 1040px; margin: 0; opacity: 0.86; }
+      #iphone-evolution { background: #f5f1ea; color: #10151a; }
+      #iphone-evolution .eyebrow { color: #5b8cff; }
+      #spacex-ascent { background: #10130f; color: #fff7ec; }
+      #spacex-ascent .eyebrow { color: #ff8a2a; }
+      #ai-interface-futures { background: #24242b; color: #fff0f7; }
+      #ai-interface-futures .eyebrow { color: #e38aa4; }
+    </style>
+  </head>
+  <body>
+    <section id="iphone-evolution" class="composition" data-composition-id="iphone-evolution" data-width="1920" data-height="1080" data-start="0" data-duration="60" data-track-index="0">
+      <div class="eyebrow">The Glass Timeline</div>
+      <h1>iPhone Evolution</h1>
+      <p>Multi-touch, app ecosystems, identity, and AI reframed as a museum-grade product history.</p>
+    </section>
+    <section id="spacex-ascent" class="composition" data-composition-id="spacex-ascent" data-width="1920" data-height="1080" data-start="0" data-duration="60" data-track-index="1">
+      <div class="eyebrow">From Orbit to Reuse</div>
+      <h1>SpaceX Ascent</h1>
+      <p>Reusable launch capability told through orbit lines, mission boards, and documentary pacing.</p>
+    </section>
+    <section id="ai-interface-futures" class="composition" data-composition-id="ai-interface-futures" data-width="1920" data-height="1080" data-start="0" data-duration="60" data-track-index="2">
+      <div class="eyebrow">From Prompt to Agent</div>
+      <h1>AI Interface Futures</h1>
+      <p>Figma direction, HyperFrames motion, Remotion timelines, and Codex packaging in one workflow.</p>
+    </section>
+    <script>
+      window.__timelines = window.__timelines || {};
+      for (const id of ["iphone-evolution", "spacex-ascent", "ai-interface-futures"]) {
+        const root = document.getElementById(id);
+        const tl = gsap.timeline({paused: true});
+        tl.from(root.querySelector(".eyebrow"), {y: 24, opacity: 0, duration: 0.45, ease: "power3.out"}, 0);
+        tl.from(root.querySelector("h1"), {y: 68, opacity: 0, duration: 0.72, ease: "power3.out"}, 0.18);
+        tl.from(root.querySelector("p"), {y: 34, opacity: 0, duration: 0.64, ease: "power3.out"}, 0.42);
+        window.__timelines[id] = tl;
+      }
+    </script>
+  </body>
+</html>

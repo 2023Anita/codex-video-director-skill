@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect width="1920" height="1080" fill="#121317"/>
+  <defs>
+    <filter id="blur"><feGaussianBlur stdDeviation="36"/></filter>
+    <linearGradient id="wash" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#db8fa4" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#73b9c7" stop-opacity="0.18"/>
+    </linearGradient>
+  </defs>
+  <rect x="64" y="54" width="1792" height="972" rx="40" fill="url(#wash)" opacity="0.72"/>
+  <g filter="url(#blur)" opacity="0.38">
+    <circle cx="273.99537197761487" cy="260" r="210" fill="#db8fa4"/>
+    <circle cx="1593.8623034573454" cy="720" r="250" fill="#73b9c7"/>
+  </g>
+  
+  <text x="138" y="126" fill="#a9a3a0" font-family="Inter, Arial" font-size="22" letter-spacing="4">FROM PROMPT TO AGENT</text>
+  <text x="138" y="192" fill="#f4efe7" font-family="Inter, Arial" font-size="74" font-weight="850">AI Interface Futures</text>
+  <rect x="138" y="224" width="273.0517578125" height="7" rx="4" fill="#db8fa4"/>
+  <g transform="translate(138 309.95862268518516)" opacity="0.06120695891203709">
+    <text x="0" y="0" fill="#db8fa4" font-family="Inter, Arial" font-size="92" font-weight="900">01</text>
+    <text x="0" y="82" fill="#f4efe7" font-family="Inter, Arial" font-size="54" font-weight="850">Prompt</text>
+    <foreignObject x="0" y="116" width="760" height="210">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Inter, Arial, sans-serif; font-size: 34px; line-height: 1.3; color: #f4efe7; opacity: 0.82;">
+        The user states a video intent, not a full production spec.
+      </div>
+    </foreignObject>
+    <text x="0" y="382" fill="#a9a3a0" font-family="Inter, Arial" font-size="22">single prompt line expands into a production board</text>
+  </g>
+  
+      <g transform="translate(1010 210)">
+        <rect width="600" height="520" rx="34" fill="#1b1d24" stroke="#f4efe7" stroke-opacity="0.12"/>
+        <rect x="40" y="42" width="520" height="78" rx="18" fill="#f8efe2"/>
+        <text x="70" y="92" fill="#121317" font-family="Inter, Arial" font-size="28" font-weight="800">Prompt</text>
+        <rect x="52" y="170" width="72" height="72" rx="18" fill="#db8fa4" opacity="0.3775431315104167"/><rect x="148" y="212" width="72" height="72" rx="18" fill="#73b9c7" opacity="0.3775431315104167"/><rect x="244" y="254" width="72" height="72" rx="18" fill="#db8fa4" opacity="0.3775431315104167"/><rect x="340" y="296" width="72" height="72" rx="18" fill="#73b9c7" opacity="0.3775431315104167"/><rect x="436" y="338" width="72" height="72" rx="18" fill="#db8fa4" opacity="0.3775431315104167"/>
+        <path d="M90 425 C220 340, 350 500, 510 390" fill="none" stroke="#73b9c7" stroke-width="5" opacity="0.75"/>
+      </g>
+  <line x1="170" y1="940" x2="1730" y2="940" stroke="#a9a3a0" stroke-opacity="0.22" stroke-width="4"/>
+  
+      <g>
+        <circle cx="170" cy="940" r="13" fill="#db8fa4" opacity="1"/>
+        <text x="170" y="978" text-anchor="middle" fill="#f4efe7" font-family="Inter, Arial" font-size="20" font-weight="800">01</text>
+      </g>
+      <g>
+        <circle cx="560" cy="940" r="8" fill="#a9a3a0" opacity="0.42"/>
+        <text x="560" y="978" text-anchor="middle" fill="#a9a3a0" font-family="Inter, Arial" font-size="20" font-weight="500">02</text>
+      </g>
+      <g>
+        <circle cx="950" cy="940" r="8" fill="#a9a3a0" opacity="0.42"/>
+        <text x="950" y="978" text-anchor="middle" fill="#a9a3a0" font-family="Inter, Arial" font-size="20" font-weight="500">03</text>
+      </g>
+      <g>
+        <circle cx="1340" cy="940" r="8" fill="#a9a3a0" opacity="0.42"/>
+        <text x="1340" y="978" text-anchor="middle" fill="#a9a3a0" font-family="Inter, Arial" font-size="20" font-weight="500">04</text>
+      </g>
+      <g>
+        <circle cx="1730" cy="940" r="8" fill="#a9a3a0" opacity="0.42"/>
+        <text x="1730" y="978" text-anchor="middle" fill="#a9a3a0" font-family="Inter, Arial" font-size="20" font-weight="500">05</text>
+      </g>
+  <text x="1510" y="126" fill="#a9a3a0" font-family="Inter, Arial" font-size="20">Figma -> HyperFrames -> Remotion -> Codex</text>
+</svg>
