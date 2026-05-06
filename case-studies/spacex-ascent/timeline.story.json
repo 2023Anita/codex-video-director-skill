@@ -1,0 +1,55 @@
+{
+  "title": "SpaceX Ascent",
+  "subtitle": "From First Orbit to Reuse",
+  "durationSeconds": 60,
+  "fps": 12,
+  "style": "mission-control-documentary",
+  "palette": {
+    "background": "#05070d",
+    "surface": "#101722",
+    "text": "#f4f7fb",
+    "muted": "#9ba6b5",
+    "accent": "#f28c38",
+    "secondary": "#39d98a",
+    "dark": "#02040a"
+  },
+  "sourceNotes": ["NASA", "Space Foundation", "FAA", "SpaceX public updates"],
+  "milestones": [
+    {
+      "year": "2008",
+      "label": "Falcon 1 Orbit",
+      "meaning": "A private liquid-fuel rocket reaches orbit and proves the ascent path.",
+      "visual": "thin launch line breaks above the atmosphere"
+    },
+    {
+      "year": "2010",
+      "label": "Dragon Returns",
+      "meaning": "A commercial spacecraft completes orbit and re-entry.",
+      "visual": "capsule arc returns through a green telemetry corridor"
+    },
+    {
+      "year": "2015",
+      "label": "First Stage Landing",
+      "meaning": "A rocket stage returns from orbital launch and lands upright.",
+      "visual": "descending booster line locks onto landing pad"
+    },
+    {
+      "year": "2020",
+      "label": "Crew Dragon",
+      "meaning": "Commercial crew flight restores human launch capability from the United States.",
+      "visual": "two crew dots cross a mission-control board"
+    },
+    {
+      "year": "2024",
+      "label": "Starship Catch",
+      "meaning": "The system begins testing catch-and-reuse operations at massive scale.",
+      "visual": "tower arms catch a returning silhouette"
+    },
+    {
+      "year": "2026",
+      "label": "System Ambition",
+      "meaning": "The narrative shifts from single missions to launch-system capacity.",
+      "visual": "many arcs form a reusable transport network"
+    }
+  ]
+}

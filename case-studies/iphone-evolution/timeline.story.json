@@ -1,0 +1,61 @@
+{
+  "title": "iPhone Evolution",
+  "subtitle": "The Glass Timeline",
+  "durationSeconds": 60,
+  "fps": 12,
+  "style": "museum-tech-editorial",
+  "palette": {
+    "background": "#f5f1ea",
+    "surface": "#ffffff",
+    "text": "#111111",
+    "muted": "#6b6f76",
+    "accent": "#5b8cff",
+    "secondary": "#6dd6a7",
+    "dark": "#0b0e13"
+  },
+  "sourceNotes": ["Apple Newsroom", "Apple Support"],
+  "milestones": [
+    {
+      "year": "2007",
+      "label": "Original iPhone",
+      "meaning": "Multi-touch turns the phone into a software canvas.",
+      "visual": "black glass slab, keynote light, single touch ripple"
+    },
+    {
+      "year": "2008",
+      "label": "App Store",
+      "meaning": "The phone becomes an ecosystem for software distribution.",
+      "visual": "empty screen becomes an icon grid"
+    },
+    {
+      "year": "2010",
+      "label": "Retina Display",
+      "meaning": "Pixels disappear into a sharper interface surface.",
+      "visual": "pixel grid tightens into smooth glass"
+    },
+    {
+      "year": "2013",
+      "label": "Touch ID",
+      "meaning": "Identity moves into the device interaction layer.",
+      "visual": "fingerprint ring becomes a security portal"
+    },
+    {
+      "year": "2017",
+      "label": "iPhone X",
+      "meaning": "The home button exits and the screen becomes the object.",
+      "visual": "button fades, edge-to-edge screen opens"
+    },
+    {
+      "year": "2023",
+      "label": "USB-C",
+      "meaning": "The phone becomes a more universal creative connector.",
+      "visual": "single cable line connects glass device to studio gear"
+    },
+    {
+      "year": "2024",
+      "label": "Apple Intelligence",
+      "meaning": "The device starts to act as a personal AI surface.",
+      "visual": "soft neural halo appears behind the device"
+    }
+  ]
+}

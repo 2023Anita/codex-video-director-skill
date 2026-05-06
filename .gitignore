@@ -3,4 +3,6 @@ node_modules/
 dist/*.tmp
 demo/**/renders/frames/
 demo/**/renders/frames-png/
+case-studies/**/renders/frames/
+case-studies/**/renders/frames-png/
 *.log
